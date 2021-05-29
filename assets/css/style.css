@@ -26,7 +26,9 @@ body {
 
 @media (max-width:665px) {
   .theme_image {
-    width: 400px;
+    margin-top: 10px;
+    width: 360px;
+    margin-bottom: 10px;
   }
 }
 
@@ -96,7 +98,11 @@ p {
   text-align: left;
 }
 
-
+@media (max-width:452px) {
+  .appstore-google{
+    margin-top: 0px;
+  }
+}
 
 .footer-dark {
   padding: 28px;
