@@ -1,917 +1,138 @@
 <html>
-
-<head>
-    <title>**Privacy Policy**</title>
-    <link rel="shortcut icon" href="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=0">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-    <style nonce="">
-        html {
-            overflow: auto;
-        }
-
-        body {
-            margin: 0;
-            overflow: hidden;
-            word-wrap: break-word;
-        }
-
-        .app-container {
-            height: 100%;
-            /* Height of mobileweb header + 1 px vertical shadow. */
-            margin-top: 57px;
-            overflow: auto;
-        }
-
-        .doc {
-            padding: 20px 12px 0 12px;
-            position: relative;
-        }
-    </style>
-    <style>
-        /* Copyright 2021 Google Inc. All Rights Reserved. */
-        .docs-ml-noselect {
-            -webkit-touch-callout: none;
-            -webkit-user-drag: none;
-            -webkit-user-select: none;
-            -khtml-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none
-        }
-
-        .docs-ml-promotion {
-            z-index: 1002
-        }
-
-        .docs-ml-header {
-            z-index: 1
-        }
-
-        .docs-ml-icon {
-            direction: ltr;
-            display: inline-block;
-            text-align: left;
-            overflow: hidden;
-            position: relative;
-            vertical-align: middle
-        }
-
-        .docs-ml-img:before {
-            content: url("//ssl.gstatic.com/docs/common/mobileweb_sprite1.png")
-        }
-
-        .docs-ml-img-container {
-            height: 156px;
-            position: absolute;
-            width: 36px
-        }
-
-        .docs-ml-docs-logo-icon {
-            left: 0;
-            top: -36px
-        }
-
-        .docs-ml-sheets-logo-icon {
-            left: 0;
-            top: 0
-        }
-
-        .docs-ml-slides-logo-icon {
-            left: 0;
-            top: -96px
-        }
-
-        .docs-ml-arrow-back-icon {
-            left: 0;
-            top: -132px
-        }
-
-        .docs-ml-edit-icon {
-            left: 0;
-            top: -72px
-        }
-
-        @media screen and (-webkit-min-device-pixel-ratio:2.0) {
-            .docs-ml-img {
-                content: url(//ssl.gstatic.com/docs/common/mobileweb_sprite1.png)
-            }
-
-            .docs-ml-img-container {
-                height: 156px;
-                position: absolute;
-                width: 36px
-            }
-
-            .docs-ml-docs-logo-icon {
-                left: 0;
-                top: -36px
-            }
-
-            .docs-ml-sheets-logo-icon {
-                left: 0;
-                top: 0
-            }
-
-            .docs-ml-slides-logo-icon {
-                left: 0;
-                top: -96px
-            }
-
-            .docs-ml-arrow-back-icon {
-                left: 0;
-                top: -132px
-            }
-
-            .docs-ml-edit-icon {
-                left: 0;
-                top: -72px
-            }
-        }
-
-        .docs-ml-header {
-            background: #fafafa;
-            border-bottom: 1px solid #cbcbcb;
-            box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-            font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-            padding: 4px 0;
-            position: fixed;
-            left: 0;
-            top: 0;
-            width: 100%
-        }
-
-        .docs-ml-header-icon {
-            height: 24px;
-            opacity: 0.6;
-            width: 24px
-        }
-
-        .docs-ml-header-icon-container {
-            padding: 12px
-        }
-
-        .docs-ml-header-item {
-            display: inline-block;
-            vertical-align: middle
-        }
-
-        .docs-ml-header-drive-link {
-            padding-left: 4px
-        }
-
-        body[dir="rtl"] .docs-ml-arrow-back-dir {
-            -webkit-transform: scaleX(-1);
-            -moz-transform: scaleX(-1);
-            -ms-transform: scaleX(-1);
-            -o-transform: scaleX(-1);
-            transform: scaleX(-1)
-        }
-
-        .docs-ml-header-document-title {
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-            line-height: 24px;
-            padding: 0 12px;
-            width: 60%;
-            width: calc(100% - 104px)
-        }
-
-        .docs-ml-header-document-title-text {
-            font-size: 20px;
-            font-weight: 500;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap
-        }
-
-        .docs-ml-header-edit-button {
-            float: right;
-            padding-right: 4px
-        }
-
-        .docs-ml-promotion {
-            background: white;
-            bottom: 0;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-            font-family: Arial, Helvetica, sans-serif;
-            left: 0;
-            position: fixed;
-            width: 100%
-        }
-
-        .docs-ml-promotion-off-screen {
-            -webkit-transform: translateY(100%);
-            -moz-transform: translateY(100%);
-            -ms-transform: translateY(100%);
-            -o-transform: translateY(100%);
-            transform: translateY(100%)
-        }
-
-        .docs-ml-promotion-shown {
-            -webkit-transform: translateY(0);
-            -moz-transform: translateY(0);
-            -ms-transform: translateY(0);
-            -o-transform: translateY(0);
-            transform: translateY(0);
-            -webkit-transition: -webkit-transform 333ms cubic-bezier(0.4, 0.0, 0.2, 1);
-            transition: transform 333ms cubic-bezier(0.4, 0.0, 0.2, 1)
-        }
-
-        .docs-ml-promotion-dismissed {
-            -webkit-transform: translateY(100%);
-            -moz-transform: translateY(100%);
-            -ms-transform: translateY(100%);
-            -o-transform: translateY(100%);
-            transform: translateY(100%);
-            box-shadow: none
-        }
-
-        .docs-ml-promotion-no-horizontal-scroll {
-            overflow-x: hidden
-        }
-
-        .docs-ml-promotion-header {
-            display: table;
-            padding: 24px 24px 0 24px
-        }
-
-        .docs-ml-promotion-app-icon-container {
-            display: table-cell
-        }
-
-        .docs-ml-promotion-app-icon {
-            height: 36px;
-            width: 36px
-        }
-
-        @media (min-width:600px) {
-            .docs-ml-promotion-app-icon {
-                -webkit-transform: scale(1.33);
-                -moz-transform: scale(1.33);
-                -ms-transform: scale(1.33);
-                -o-transform: scale(1.33);
-                transform: scale(1.33)
-            }
-        }
-
-        .docs-ml-promotion-text {
-            display: table-cell;
-            padding-left: 20px;
-            vertical-align: top
-        }
-
-        .docs-ml-promotion-text-heading {
-            color: rgba(0, 0, 0, 0.87);
-            font-size: 16px;
-            font-weight: bold;
-            padding-bottom: 7px
-        }
-
-        .docs-ml-promotion-text-body {
-            color: rgba(0, 0, 0, 0.87);
-            font-size: 14px
-        }
-
-        .docs-ml-promotion-action-row {
-            float: right;
-            margin-top: 6px;
-            padding: 8px 24px
-        }
-
-        .docs-ml-promotion-action-row-desktop {
-            margin-top: 6px
-        }
-
-        .docs-ml-promotion-action-container {
-            display: inline-block;
-            height: 48px;
-            margin: 6px 4px;
-            vertical-align: middle
-        }
-
-        .docs-ml-promotion-action-button {
-            display: inline-block;
-            font-size: 14px;
-            font-weight: 500;
-            padding: 9px 12px;
-            vertical-align: middle
-        }
-
-        .docs-ml-promotion-action-button-wrapper:focus {
-            outline-color: #d6d6d6
-        }
-
-        .docs-ml-promotion-action-button.docs-ml-promotion-yes-button {
-            background-color: #4285f4;
-            border-radius: 4px;
-            color: #fafafa;
-            border: 1px solid transparent
-        }
-
-        .docs-ml-promotion-action-button.docs-ml-promotion-yes-button:active {
-            background-color: #1967d2
-        }
-
-        .docs-ml-promotion-action-button.docs-ml-promotion-no-button {
-            background-color: #fafafa;
-            color: #5f6368;
-            border-radius: 4px;
-            border: 1px solid #dadce0
-        }
-
-        .docs-ml-promotion-action-button.docs-ml-promotion-no-button:active {
-            background-color: #f5f5f5
-        }
-
-        .docs-ml-promotion.desktop {
-            text-align: center
-        }
-
-        @media (orientation:portrait) {
-            .docs-ml-promotion.desktop {
-                padding-top: 56px;
-                padding-bottom: 80px
-            }
-        }
-
-        @media (orientation:landscape) {
-            .docs-ml-promotion.desktop {
-                padding-top: 36px;
-                padding-bottom: 56px
-            }
-        }
-
-        .docs-ml-promotion-heading-desktop {
-            font-family: 'Google Sans';
-            font-size: 18px;
-            font-weight: bold;
-            color: #202124;
-            padding-top: 18px;
-            padding-bottom: 10px;
-            line-height: 1.5;
-            max-width: 360px;
-            margin: 0px auto
-        }
-
-        @media (orientation:landscape) {
-            .docs-ml-promotion-heading-desktop {
-                padding-top: 0px;
-                max-width: none
-            }
-        }
-
-        .docs-ml-promotion-text-body-desktop {
-            font-size: 14px;
-            line-height: 1.5;
-            color: #5f6368;
-            padding-bottom: 10px
-        }
-
-        .docs-icon.docs-ml-promotion-desktop-icon {
-            height: 40px;
-            width: 40px;
-            -webkit-transform: scale(2.5);
-            -moz-transform: scale(2.5);
-            -ms-transform: scale(2.5);
-            -o-transform: scale(2.5);
-            transform: scale(2.5);
-            -webkit-transform-origin: top;
-            -moz-transform-origin: top;
-            -ms-transform-origin: top;
-            -o-transform-origin: top;
-            transform-origin: top
-        }
-
-        .docs-icon-ml-promotion-icon-container-desktop {
-            height: 100px;
-            width: 100px;
-            margin-left: auto;
-            margin-right: auto
-        }
-
-        @media (orientation:landscape) {
-            .docs-icon-ml-promotion-icon-container-desktop {
-                display: inline-block;
-                vertical-align: top
-            }
-
-            .docs-ml-promotion-description-desktop {
-                display: inline-block;
-                vertical-align: top;
-                text-align: left;
-                padding-left: 39px;
-                max-width: 645px
-            }
-        }
-
-        @media (orientation:landscape) {
-            .docs-ml-promotion-action-row-desktop {
-                margin-left: -8px
-            }
-        }
-
-        .docs-ml-promotion-action-row-desktop .docs-ml-promotion-action-container {
-            margin: 6px 8px;
-            font-family: 'Google Sans'
-        }
-
-        .docs-ml-promotion-action-row-desktop .docs-ml-promotion-action-button-wrapper:focus {
-            outline: none
-        }
-
-        .docs-ml-promotion-action-button.docs-ml-promotion-yes-button.docs-ml-promotion-app-themed {
-            background-image: none;
-            border: 1px solid transparent !important;
-            border-radius: 4px;
-            box-shadow: none;
-            box-sizing: border-box;
-            font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
-            font-weight: 500;
-            font-size: 14px;
-            height: 36px;
-            letter-spacing: 0.25px;
-            line-height: 16px;
-            padding: 9px 24px 11px 24px;
-            background: #1a73e8;
-            color: #fff
-        }
-
-        .docs-ml-promotion-action-button.docs-ml-promotion-yes-button.docs-ml-promotion-app-themed:active {
-            background-image: none;
-            border: 1px solid transparent !important;
-            border-radius: 4px;
-            box-shadow: none;
-            box-sizing: border-box;
-            font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
-            font-weight: 500;
-            font-size: 14px;
-            height: 36px;
-            letter-spacing: 0.25px;
-            line-height: 16px;
-            padding: 9px 24px 11px 24px;
-            background: #1a73e8;
-            color: #fff
-        }
-
-        .docs-ml-promotion-action-button.docs-ml-promotion-no-button.docs-ml-promotion-app-themed {
-            background-image: none;
-            border: 1px solid transparent !important;
-            border-radius: 4px;
-            box-shadow: none;
-            box-sizing: border-box;
-            font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
-            font-weight: 500;
-            font-size: 14px;
-            height: 36px;
-            letter-spacing: 0.25px;
-            line-height: 16px;
-            padding: 9px 24px 11px 24px;
-            background: white;
-            border: 1px solid #dadce0 !important;
-            color: #1a73e8
-        }
-
-        .docs-ml-promotion-action-button-wrapper:focus .docs-ml-promotion-action-button.docs-ml-promotion-yes-button.docs-ml-promotion-app-themed {
-            background-image: none;
-            border: 1px solid transparent !important;
-            border-radius: 4px;
-            box-shadow: none;
-            box-sizing: border-box;
-            font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
-            font-weight: 500;
-            font-size: 14px;
-            height: 36px;
-            letter-spacing: 0.25px;
-            line-height: 16px;
-            padding: 9px 24px 11px 24px;
-            background: #1a73e8;
-            color: #fff;
-            background: #5094ed;
-            box-shadow: 0 1px 3px 1px rgba(66, 133, 244, 0.15)
-        }
-
-        .docs-ml-promotion-action-button-wrapper:focus .docs-ml-promotion-action-button.docs-ml-promotion-no-button.docs-ml-promotion-app-themed {
-            background-image: none;
-            border: 1px solid transparent !important;
-            border-radius: 4px;
-            box-shadow: none;
-            box-sizing: border-box;
-            font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
-            font-weight: 500;
-            font-size: 14px;
-            height: 36px;
-            letter-spacing: 0.25px;
-            line-height: 16px;
-            padding: 9px 24px 11px 24px;
-            background: #e9f1fe;
-            border: 1px solid #c1d8fb !important
-        }
-    </style>
-    <script
-        nonce="">_docs_flag_initialData = { "docs-mwid": true, "docs-smheo": false, "info_params": { "includes_info_params": true }, "ilcm": { "eui": "ADFN-ct7rW2F6GKaQf-trTU_yGWl2TfHzkZZK5zsCCXcJv2DLZ-HuNhT63SCZ-bUuAhYqENPS73U", "je": 1, "sstu": 1622724708867000, "si": "CNO33M7A-_ACFfuFXQMdY-8M0g", "gsc": 0, "ei": [5715584, 5711230, 5701650, 5702402, 5720595, 5715519, 5719162, 5715855, 5721352, 5714796, 5728567, 5719462, 5704520, 5719651, 5721016, 5715812, 5730596, 5710645, 5701586, 5711193, 5707986, 5713152, 5703889, 5703757, 5730867, 5722025, 5713633, 5712373, 5712913, 5706747, 5705793, 5716141, 5703295, 5712415, 5704581, 5708568, 5721012, 5723264, 5714961, 5714612, 5712651, 5713227, 5702511, 5710692, 5719482, 5700884, 5736452, 5710720, 5707609, 5730290, 5715791, 5707425, 5713207, 5707445, 5711850, 5715515, 5714322, 5712909, 5721307, 5708365, 5714310, 5705581, 5714628, 5737153, 5721008, 5717567, 5716024, 5710476, 5723473, 5713997, 5704144, 5730714, 5716032, 5712045, 5704883, 5722370, 5710363, 5704621, 5715641, 5711155, 5711708, 5724684, 5701034, 5725855, 5700114, 5703839, 5735806, 5727624, 5720479, 5701594, 5719418, 5707657, 5733570, 5710748, 5713211, 5713191, 5737280, 5707819, 5724597, 5710575, 5721851, 5715507, 5738112, 5719212, 5713333, 5722742, 5703422, 5724865, 5729072, 5729964, 5702320, 5711222, 5712360, 5735630, 5700019, 5726110, 5723365, 5725742, 5711523, 5721004, 5712368, 5707204, 5709476, 5721348, 5700446, 5729249, 5737278, 5707075, 5712211, 5709443, 5700394, 5730285, 5706270, 5712189, 5727701, 5714445, 5712635, 5711297, 5711925, 5728007, 5703815, 5726595, 5704569, 5702912, 5711550, 5731034, 5725737, 5709904, 5713049, 5707733, 5722132, 5721344, 5715222, 5711685, 5709085, 5716196, 5707941, 5711246, 5711099, 5710752, 5702445, 5706523, 5734571, 5724896, 5725475, 5720925, 5724045, 5708870, 5713554, 5726635, 5712256, 5719502, 5703283, 5728335, 5704572, 5715403, 5735134, 5715278, 5702785, 13702623, 5722044, 5724553, 5713621, 5707047, 5712049, 5704063, 5706933, 5735670, 5731530, 5707711, 5707361, 5720060, 5704641, 5712053, 5703762, 5709892, 5703182, 5715349, 5711389, 5703186, 5708862, 5737254, 5737701, 5710587, 5706601, 5705597, 5713195, 5708874, 5721764, 5704905, 5711957, 5722365, 5712589, 5703913, 5709447, 5712905, 5731490, 5711808, 5714550, 5705689, 5708886, 5715270, 5703022, 5713605, 5703307, 5720518, 5727257], "crc": 0, "cvi": [] }, "drive_url": "//drive.google.com/u/0?usp\u003ddocs_web", "docs-ehr": true, "docs-sup": "/document/u/0" }; _docs_flag_cek = ''; if (window['DOCS_timing']) { DOCS_timing['ifdld'] = new Date().getTime(); }</script>
-</head>
-
-<body>
-    <script type="text/javascript" src="/static/document/client/js/3862403196-mobileweb_binary_i18n__en_gb.js"
-        nonce=""></script>
-    <script type="text/javascript"
-        nonce="">if ((! false && !this['DOCS_initDocsMobileWeb']) || false) { if (window.navigator && window.navigator.sendBeacon) { window.navigator.sendBeacon('\/document\/u\/0\/jserror?jobset\x3dprod\x26error\x3dJS+binary+load+failure&context.functionName=DOCS_initDocsMobileWeb' + '&context.serviceWorkerControlled=' + !!(navigator.serviceWorker && navigator.serviceWorker.controller) + '\x26context.actionName\x3dMobileBasic'); } (window.location.href = 'https:\/\/support.google.com\/accounts\/answer\/32050') } DOCS_initDocsMobileWeb(true, true, '**Privacy Policy**', 'intent:\/\/docs.google.com\/document\/d\/1tpFIyAHqT2t4KTjP3dRSp2o09DwbQ8Il3zyNM5paXPo\/edit#Intent;scheme\x3dhttps;package\x3dcom.google.android.apps.docs.editors.docs;S.browser_fallback_url\x3dmarket:\/\/details?id\x3dcom.google.android.apps.docs.editors.docs;end', 'googledocs:\/\/docs.google.com\/document\/u\/0\/d\/1tpFIyAHqT2t4KTjP3dRSp2o09DwbQ8Il3zyNM5paXPo\/edit', false);</script>
-    <div id="docs-ml-header-id" class="docs-ml-header"><span class="docs-ml-header-item docs-ml-header-drive-link">
-            <div id="docs-ml-header-drive-link-aria-label" style="display:none;">Go to Drive</div><a
-                href="//drive.google.com/u/0?usp=docs_web" aria-labelledby="docs-ml-header-drive-link-aria-label"
-                role="button">
-                <div class="docs-ml-header-icon-container">
-                    <div class="docs-ml-icon docs-ml-header-icon docs-ml-arrow-back-dir">
-                        <div class="docs-ml-img-container docs-ml-img docs-ml-arrow-back-icon"></div>
-                    </div>
-                </div>
-            </a>
-        </span><span class="docs-ml-header-item docs-ml-header-document-title">
-            <div class="docs-ml-header-document-title-text">**Privacy Policy**</div>
-        </span></div>
-    <div class="app-container">
-        <div class="doc-container">
-            <div class="doc">
-                <div style="background-color:#ffffff;padding:72pt 72pt 72pt 72pt;max-width:468pt">
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">**Privacy
-                            Policy**</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">Quran
-                            Talk developer built the Quran Talk app as a Free app. This SERVICE is provided by Quran
-                            Talk developer at no cost and is intended for use as is.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">This
-                            page is used to inform visitors regarding my policies with the collection, use, and
-                            disclosure of Personal Information if anyone decided to use my Service.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">If
-                            you choose to use my Service, then you agree to the collection and use of information in
-                            relation to this policy. The Personal Information that I collect is used for providing and
-                            improving the Service. I will not use or share your information with anyone except as
-                            described in this Privacy Policy.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">The
-                            terms used in this Privacy Policy have the same meanings as in our Terms and Conditions,
-                            which is accessible at Quran Talk unless otherwise defined in this Privacy Policy.</span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">**Information
-                            Collection and Use**</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">For
-                            a better experience, while using our Service, I may require you to provide us with certain
-                            personally identifiable information. The information that I request will be retained on your
-                            device and is not collected by me in any way.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">The
-                            app does use third party services that may collect information used to identify you.</span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">Link
-                            to privacy policy of third party service providers used by the app</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">*
-                            &nbsp; [Google Play Services](https://www.google.com/policies/privacy/)</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">*
-                            &nbsp; [Firebase Crashlytics](https://firebase.google.com/support/privacy/)</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">**Log
-                            Data**</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">I
-                            want to inform you that whenever you use my Service, in a case of an error in the app I
-                            collect data and information (through third party products) on your phone called Log Data.
-                            This Log Data may include information such as your device Internet Protocol (“IP”) address,
-                            device name, operating system version, the configuration of the app when utilizing my
-                            Service, the time and date of your use of the Service, and other statistics.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">**Cookies**</span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">Cookies
-                            are files with a small amount of data that are commonly used as anonymous unique
-                            identifiers. These are sent to your browser from the websites that you visit and are stored
-                            on your device's internal memory.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">This
-                            Service does not use these “cookies” explicitly. However, the app may use third party code
-                            and libraries that use “cookies” to collect information and improve their services. You have
-                            the option to either accept or refuse these cookies and know when a cookie is being sent to
-                            your device. If you choose to refuse our cookies, you may not be able to use some portions
-                            of this Service.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">**Service
-                            Providers**</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">I
-                            may employ third-party companies and individuals due to the following reasons:</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">*
-                            &nbsp; To facilitate our Service;</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">*
-                            &nbsp; To provide the Service on our behalf;</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">*
-                            &nbsp; To perform Service-related services; or</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">*
-                            &nbsp; To assist us in analyzing how our Service is used.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">I
-                            want to inform users of this Service that these third parties have access to your Personal
-                            Information. The reason is to perform the tasks assigned to them on our behalf. However,
-                            they are obligated not to disclose or use the information for any other purpose.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">**Security**</span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">I
-                            value your trust in providing us your Personal Information, thus we are striving to use
-                            commercially acceptable means of protecting it. But remember that no method of transmission
-                            over the internet, or method of electronic storage is 100% secure and reliable, and I cannot
-                            guarantee its absolute security.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">**Links
-                            to Other Sites**</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">This
-                            Service may contain links to other sites. If you click on a third-party link, you will be
-                            directed to that site. Note that these external sites are not operated by me. Therefore, I
-                            strongly advise you to review the Privacy Policy of these websites. I have no control over
-                            and assume no responsibility for the content, privacy policies, or practices of any
-                            third-party sites or services.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">**Children’s
-                            Privacy**</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">These
-                            Services do not address anyone under the age of 13. I do not knowingly collect personally
-                            identifiable information from children under 13 years of age. In the case I discover that a
-                            child under 13 has provided me with personal information, I immediately delete this from our
-                            servers. If you are a parent or guardian and you are aware that your child has provided us
-                            with personal information, please contact me so that I will be able to do necessary
-                            actions.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">**Changes
-                            to This Privacy Policy**</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">I
-                            may update our Privacy Policy from time to time. Thus, you are advised to review this page
-                            periodically for any changes. I will notify you of any changes by posting the new Privacy
-                            Policy on this page.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">This
-                            policy is effective as of 2021-03-21</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">**Contact
-                            Us**</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">If
-                            you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me
-                            at qurantalk9@gmail.com.</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">This
-                            privacy policy page was created at
-                            [privacypolicytemplate.net](https://privacypolicytemplate.net) and modified/generated by
-                            [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)</span></p>
-                    <p
-                        style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;height:11pt;text-align:left">
-                        <span
-                            style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal"></span>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script nonce="">window.setTimeout(function () { window.scrollTo(0, 1); }, 0)</script>
-</body>
-
+    <head>
+        <title>privacy policy </title>
+    </head>
+    <body>
+    <h1>Privacy Policy</h1>
+<p>Last updated: June 03, 2021</p>
+<p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
+<p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the <a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/" target="_blank">Privacy Policy Generator</a>.</p>
+<h1>Interpretation and Definitions</h1>
+<h2>Interpretation</h2>
+<p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+<h2>Definitions</h2>
+<p>For the purposes of this Privacy Policy:</p>
+<ul>
+<li>
+<p><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</p>
+</li>
+<li>
+<p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
+</li>
+<li>
+<p><strong>Application</strong> means the software program provided by the Company downloaded by You on any electronic device, named QuranTalk</p>
+</li>
+<li>
+<p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to QuranTalk.</p>
+</li>
+<li>
+<p><strong>Country</strong> refers to:  Pakistan</p>
+</li>
+<li>
+<p><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>
+</li>
+<li>
+<p><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</p>
+</li>
+<li>
+<p><strong>Service</strong> refers to the Application.</p>
+</li>
+<li>
+<p><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.</p>
+</li>
+<li>
+<p><strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).</p>
+</li>
+<li>
+<p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
+</li>
+</ul>
+<h1>Collecting and Using Your Personal Data</h1>
+<h2>Types of Data Collected</h2>
+<h3>Personal Data</h3>
+<p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
+<ul>
+<li>Usage Data</li>
+</ul>
+<h3>Usage Data</h3>
+<p>Usage Data is collected automatically when using the Service.</p>
+<p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+<p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
+<p>We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.</p>
+<h2>Use of Your Personal Data</h2>
+<p>The Company may use Personal Data for the following purposes:</p>
+<ul>
+<li>
+<p><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</p>
+</li>
+<li>
+<p><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</p>
+</li>
+<li>
+<p><strong>For the performance of a contract:</strong> the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.</p>
+</li>
+<li>
+<p><strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.</p>
+</li>
+<li>
+<p><strong>To provide You</strong> with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.</p>
+</li>
+<li>
+<p><strong>To manage Your requests:</strong> To attend and manage Your requests to Us.</p>
+</li>
+<li>
+<p><strong>For business transfers:</strong> We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.</p>
+</li>
+<li>
+<p><strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.</p>
+</li>
+</ul>
+<p>We may share Your personal information in the following situations:</p>
+<ul>
+<li><strong>With Service Providers:</strong> We may share Your personal information with Service Providers to monitor and analyze the use of our Service,  to contact You.</li>
+<li><strong>For business transfers:</strong> We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.</li>
+<li><strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.</li>
+<li><strong>With business partners:</strong> We may share Your information with Our business partners to offer You certain products, services or promotions.</li>
+<li><strong>With other users:</strong> when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.</li>
+<li><strong>With Your consent</strong>: We may disclose Your personal information for any other purpose with Your consent.</li>
+</ul>
+<h2>Retention of Your Personal Data</h2>
+<p>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
+<p>The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.</p>
+<h2>Transfer of Your Personal Data</h2>
+<p>Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.</p>
+<p>Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.</p>
+<p>The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.</p>
+<h2>Disclosure of Your Personal Data</h2>
+<h3>Business Transactions</h3>
+<p>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
+<h3>Law enforcement</h3>
+<p>Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
+<h3>Other legal requirements</h3>
+<p>The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:</p>
+<ul>
+<li>Comply with a legal obligation</li>
+<li>Protect and defend the rights or property of the Company</li>
+<li>Prevent or investigate possible wrongdoing in connection with the Service</li>
+<li>Protect the personal safety of Users of the Service or the public</li>
+<li>Protect against legal liability</li>
+</ul>
+<h2>Security of Your Personal Data</h2>
+<p>The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
+<h1>Children's Privacy</h1>
+<p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p>
+<p>If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.</p>
+<h1>Links to Other Websites</h1>
+<p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
+<p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+<h1>Changes to this Privacy Policy</h1>
+<p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
+<p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.</p>
+<p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+<h1>Contact Us</h1>
+<p>If you have any questions about this Privacy Policy, You can contact us:</p>
+<ul>
+<li>By email: qurantalk9@gmail.com</li>
+</ul>
+    </body>
 </html>
